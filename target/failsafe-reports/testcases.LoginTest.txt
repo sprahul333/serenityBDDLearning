@@ -1,0 +1,70 @@
+-------------------------------------------------------------------------------
+Test set: testcases.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.253 s <<< FAILURE! - in testcases.LoginTest
+doLogin(testcases.LoginTest)  Time elapsed: 1.899 s  <<< ERROR!
+net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver
+	at testcases.LoginTest.doLogin(LoginTest.java:31)
+Caused by: net.thucydides.core.webdriver.DriverConfigurationError: 
+Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 80
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1BDQC6B', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: ProvideNewDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00C10C83+1707139]
+	Ordinal0 [0x00B768F1+1075441]
+	Ordinal0 [0x00AEDFC9+516041]
+	Ordinal0 [0x00A80554+66900]
+	Ordinal0 [0x00A7CCE2+52450]
+	Ordinal0 [0x00A9BFD7+180183]
+	Ordinal0 [0x00A9BDDD+179677]
+	Ordinal0 [0x00A99D4B+171339]
+	Ordinal0 [0x00A81D4A+73034]
+	Ordinal0 [0x00A82DC0+77248]
+	Ordinal0 [0x00A82D59+77145]
+	Ordinal0 [0x00B8BB67+1162087]
+	GetHandleVerifier [0x00CAA966+508998]
+	GetHandleVerifier [0x00CAA6A4+508292]
+	GetHandleVerifier [0x00CBF7B7+594583]
+	GetHandleVerifier [0x00CAB1D6+511158]
+	Ordinal0 [0x00B8402C+1130540]
+	Ordinal0 [0x00B8D4CB+1168587]
+	Ordinal0 [0x00B8D633+1168947]
+	Ordinal0 [0x00BA5B35+1268533]
+	BaseThreadInitThunk [0x77096359+25]
+	RtlGetAppContainerNamedObjectPath [0x77917C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77917BF4+180]
+). See below for more details.
+	at testcases.LoginTest.doLogin(LoginTest.java:31)
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 80
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1BDQC6B', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: ProvideNewDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00C10C83+1707139]
+	Ordinal0 [0x00B768F1+1075441]
+	Ordinal0 [0x00AEDFC9+516041]
+	Ordinal0 [0x00A80554+66900]
+	Ordinal0 [0x00A7CCE2+52450]
+	Ordinal0 [0x00A9BFD7+180183]
+	Ordinal0 [0x00A9BDDD+179677]
+	Ordinal0 [0x00A99D4B+171339]
+	Ordinal0 [0x00A81D4A+73034]
+	Ordinal0 [0x00A82DC0+77248]
+	Ordinal0 [0x00A82D59+77145]
+	Ordinal0 [0x00B8BB67+1162087]
+	GetHandleVerifier [0x00CAA966+508998]
+	GetHandleVerifier [0x00CAA6A4+508292]
+	GetHandleVerifier [0x00CBF7B7+594583]
+	GetHandleVerifier [0x00CAB1D6+511158]
+	Ordinal0 [0x00B8402C+1130540]
+	Ordinal0 [0x00B8D4CB+1168587]
+	Ordinal0 [0x00B8D633+1168947]
+	Ordinal0 [0x00BA5B35+1268533]
+	BaseThreadInitThunk [0x77096359+25]
+	RtlGetAppContainerNamedObjectPath [0x77917C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77917BF4+180]
+
+	at testcases.LoginTest.doLogin(LoginTest.java:31)
+
